@@ -83,14 +83,12 @@ p {
   transform: scale(1.5);
   transition: transform 2s;
   width: 100%;
-  border-radius: 8px;
 }
 
 .photo img:hover {
   opacity: 1;
   transition: opacity 2s;
   transform: scale(1);
-
 }
 /* --------------- G A L L E R Y ---------------*/
 
