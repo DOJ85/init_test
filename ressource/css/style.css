@@ -82,7 +82,7 @@ p {
 .photo img {
   opacity: 0.40;
   transform: scale(1.5);
-  transition: transform 2s;
+  transition: transform 0.8s;
   width: 100%;
 }
 
@@ -90,6 +90,7 @@ p {
   opacity: 1;
   transition: opacity 2s;
   transform: scale(1);
+  transition: transform 1.2s;
 }
 /* --------------- G A L L E R Y ---------------*/
 
