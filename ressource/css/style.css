@@ -35,11 +35,13 @@ header {
   border: 3px solid white;
   border-radius: 5px;
   font-size: 25px;
+  word-spacing: 5px;
+  letter-spacing: 3px;
   padding: 8px 80px;
   background-color: rgba(255,255,255,0.2);
   transition-duration: 0.4s;
   box-shadow: 0px 0px 35px black, 0px 0px 100px black;
-  text-shadow: 0px 0px 6px black, 0px 0px 6px black;
+  text-shadow: 0px 0px 10px black, 0px 0px 10px black, 0px 0px 20px black, 0px 0px 20px black;
 }
 .navbar > li > a:hover {
   background-color: rgba(255,255,255,0.7);
@@ -83,7 +85,9 @@ h4 {
 /* ------------ P A R A G R A P H E ------------*/
 p {
   max-width: 600px;
-  margin: 0 auto 20px;
+  margin: 0 auto 50px;
+  word-spacing: 4px;
+  letter-spacing: 1px;
 }
 /* ------------ P A R A G R A P H E ------------*/
 
