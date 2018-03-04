@@ -80,7 +80,7 @@ h4 {
 }
 /* ---------- T I T R E   M I L I E U ----------*/
 
-/* --------------------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------------------------------------------------*/
 
 /* ------------ P A R A G R A P H E ------------*/
 p {
@@ -121,7 +121,7 @@ p {
 .photo img:hover {
   opacity: 1;
   transition-property: transform, opacity;
-  transition-duration: 1.2s;
+  transition-duration: 1s;
   transition-timing-function: ease-in;
   transform: scale(1);
 }
