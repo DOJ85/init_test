@@ -26,10 +26,12 @@ header {
   list-style: none;
   text-align: center;
 }
+
 .navbar  li {
   display: inline-block;
   padding: 0px 40px;
 }
+
 .navbar  li  a {
   font-weight: 300;
   text-decoration: none;
@@ -49,6 +51,40 @@ header {
   background-color: rgba(255,255,255,0.7);
   border-color: rgb(58, 58, 58);
 }
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  z-index: 999;
+}
+
+.sticky .navbar li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 90%;
+}
+
+
+.logo .logo-black {
+  height: 100px;
+  float: left;
+  margin-top: 20px;
+}
+
+.logo-black {
+  display: none
+}
+.sticky .logo {
+  display: none
+  } /* Si la class sticky est activé alors cache la class logo */
+.sticky .logo-black {
+  display: block
+}
+
 /* ---------------- N A V B A R ----------------*/
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------*/
@@ -92,6 +128,21 @@ h4 {
   letter-spacing: 1px;
 }
 /* ------------ P A R A G R A P H E ------------*/
+#about .about-box {
+    padding: 25px;
+}
+
+#about .about-box h4 {
+    margin: 30px 0;
+    color: #2a3b71;
+    font-size: 20px;
+}
+
+#about .about-box p {
+    color: #2a3b71;
+    font-weight: 400;
+    font-size: 16px;
+}
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -178,6 +229,12 @@ h4 {
 .padding-100 {
   padding: 100px 0;
 }
+.container2 {
+  padding-right:15px;
+  padding-left:15px;
+  margin-right:auto;
+  margin-left:auto
+}
 .overlay1 {
   position: absolute;
   top: 0;
@@ -219,15 +276,25 @@ h4 {
   .space-50 {
     height: 50px;
   }
-  .container2 {
-padding-right:15px;
-padding-left:15px;
-margin-right:auto;
-margin-left:auto
+
+  .center-block {
+    display:block;
+    margin-right:auto;
+    margin-left:auto
+  }
+
+  .img-responsive {
+    display:block;
+    max-width:100%;
+    height:auto
+  }
+  #video {
+    position: relative;
 }
 
-  
-
+#video a {
+    display: inline-block;
+}
 
 /* ----------------- V I D E O ---------------- */
 
@@ -287,6 +354,74 @@ margin-left:auto
 /* ------------------ P R I X ------------------*/
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------*/
+
+.section-heade.white h3,
+.section-heade.white p {
+    color: #fff;
+}
+
+.col-md-offset-2 {
+  margin-left:16.66666667%
+}
+
+
+
+/*------------------------------
+    08. START TESTIMONIAL SECTION
+------------------------------*/
+
+#testimonial {
+    position: relative;
+}
+
+#testimonial .testimonial-slider {}
+
+#testimonial .testimonial-slider .item p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+#testimonial .testimonial-slider .item .client-img {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid #bf095d;
+}
+
+#testimonial .testimonial-slider .item h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#testimonial .testimonial-slider .item .client-rate ul li i {
+    color: #fac917;
+}
+
+#testimonial .testimonial-slider .owl-dots {
+    margin-top: 20px !important;
+}
+
+#testimonial .testimonial-slider .owl-dots .owl-dot span {
+    background: #fff;
+    width: 13px;
+    height: 13px;
+}
+
+#testimonial .testimonial-slider .owl-dots .owl-dot.active span {
+    background: #bf095d;
+}
+
+
+/*------------------------------
+    08. END TESTIMONIAL SECTION
+------------------------------*/
+
 
 /*-------------- F O R M A T I O N -------------*/
 .container {
@@ -474,5 +609,7 @@ footer {
 }
 
 /* ----------------- F O O T E R ----------------*/
+
+
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------*/
